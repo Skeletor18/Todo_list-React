@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app {
+  width: 450px;
+  margin: auto;
+}
+.header {
+  padding: 15px 0;
+  font-size: 22px;
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 15px;
+}
+.forma {
+  display: flex;
+}
+.forma input {
+  flex: 1;
+  font-size: 20px;
+  border-radius: 5px;
+}
+.forma button {
+  background-color: #634bf5;
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3px solid #e5e5e5;
+  font-size: 20px;
+}
+.todos .todo_text {
+  flex: 1;
+}
+.todos .todo_text ::selection {
+  color: aqua;
+  background-color: black;
+}
+.todos .star {
+  padding: 20px 15px;
+}
+
+.delet_btn button {
+  color: red;
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.todo_class {
+  color: #634bf5;
+  background-color: #fff606;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3px solid #e5e5e5;
+  font-size: 20px;
+}
+.star button {
+  background-color: transparent;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+.todo_class .star button {
+  color: #634bf5;
+}
